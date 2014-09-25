@@ -1,2 +1,24 @@
-nhungtest
-=========
+package tamgiac;
+
+public class tamgiac {
+		public int  (int a, int b, int c)
+		{
+			if( a==b + c)
+			{
+					System.out.println("khong phai la tam giac ");
+			}
+			else if( a*a==b*b + c*c) 
+				{
+					System.out.println("tam giac vuong");
+				}
+			else if(( a==b)&&(b!=c)||(a==c)&&(b!=c)) 
+			{
+				System.out.println("tam giac la tam giac can");
+			}
+			else if(( a==b)&&(b==c))
+			{
+				System.out.println("tam giac deu");
+			}
+			
+		}
+}
